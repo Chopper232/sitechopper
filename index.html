@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій перший сайт</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+    <link rel="stylesheet" href="css/slick.css">
+</head>
+<body>
+    <a href="#" class="btn-top"><i class="fa-solid fa-caret-up"></i></a>
+    <header id="home" class="color-change-2x">
+        <div class="container">
+            <nav>
+    
+                <div class="logo">АЯ</div>
+                <ul class="menu">
+                    <li><a href="#home">Домашня</a></li>
+                    <li><a href="#skills">Мої навички</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contacts">Контакти</a></li>
+                </ul>
+                <div class="burger">
+                    <input type="checkbox" name="" id="menu_toggle">
+                    <label for="menu_toggle" class="menu_btn">
+                        <span></span>
+                    </label>
+                    <ul class="menu_box">
+                        <li class="menu_item"><a href="#home">Домашня</a></li>
+                        <li class="menu_item"><a href="#skills">Мої навички</a></li>
+                        <li class="menu_item"><a href="#gallery">Галерея</a></li>
+                        <li class="menu_item"><a href="#contacts">Контакти</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="offer">
+            <h1 id="header" class="focus-in-contract">Це мій перший сайт</h1>
+            <p>Цей сайт  верстаю я і моя мрія  стати найкращим веб-дезайнером Укаїни. я буду цей сайт розробяти сам і буду дуже довго пам'ятати </p> 
+            <a href="#" class="btn" onclick='document.getElementById("header").innerHTML="Цей сайт робив Козак Євген"'>Детальніше</a>
+            </div>
+        </div>
+    </header>
+    <section id="skills" class="skill">
+        <div class="container">
+        <h2>Скоро всі побачать мої навички</h2>
+        <div class="skills scale-in-hor-left">
+            <div class="item"><img src="img/aaron-burden-2IzoIHBgYAo-unsplash.jpg" alt=""></div>
+            <div class="item"><img src="img/aaron-burden-nJ2YCCnVp6k-unsplash.jpg" alt=""></div>
+            <div class="item"><img src="img/arno-smit-sKJ7zSylUao-unsplash.jpg" alt=""></div>
+            <div class="item"><img src="img/chi-liu-l-rtCtc_4c0-unsplash.jpg" alt=""></div>
+            <div class="item"><img src="img/daiga-ellaby-YnNczu62rdk-unsplash.jpg" alt=""></div>
+            <div class="item"><img src="img/joel-holland-TRhGEGdw-YY-unsplash.jpg" alt=""></div>
+        </div>
+        </div>
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Галерея</h2>
+            <div class="gallery_box bounce-in-fwd">
+                <div class="gallery_item"><a href="img/arno-smit-sKJ7zSylUao-unsplash.jpg" data-fancybox="gallery" data-caption="Single image">
+                    <img src="img/arno-smit-sKJ7zSylUao-unsplash.jpg" />
+                  </a>
+                  </div>
+                <div class="gallery_item"><a href="img/daiga-ellaby-YnNczu62rdk-unsplash.jpg" data-fancybox="gallery" data-caption="Single image">
+                    <img src="img/daiga-ellaby-YnNczu62rdk-unsplash.jpg" />
+                  </a>
+                  </div>
+                <div class="gallery_item"><a href="img/joel-holland-TRhGEGdw-YY-unsplash.jpg" data-fancybox="gallery" data-caption="Single image">
+                    <img src="img/joel-holland-TRhGEGdw-YY-unsplash.jpg" />
+                  </a>
+                  </div>
+                <div class="gallery_item"><a href="img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg" data-fancybox="gallery" data-caption="Single image">
+                    <img src="img/masaaki-komori-Z8TQv3yKQd4-unsplash.jpg" />
+                  </a>
+                  </div>
+            </div>
+            <a href="#gallery" class="btn" onclick='document.getElementById("gallery").style.backgroundColor="#FFF8DC"'>Змінити колір</a>
+        </div>
+    </section>
+    <footer id="contacts" class="footer">
+    <div class="container">
+    <p>Розробка-Євген Козак|Всі права захищено &copy 2025р.</p>
+    <ul class="social">
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-tiktok"></i></a></li>
+    </ul>
+    </div>
+  </footer>      
+  <script src="jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="slick.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
